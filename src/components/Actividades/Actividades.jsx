@@ -1,7 +1,7 @@
 import React from 'react'
 import{Swiper, SwiperSlide, useSwiper} from 'swiper/react'
 import 'swiper/css'
-
+import { Link } from 'react-router-dom'
 import './Actividades.css'
 import data from '../../utils/slider.json'
 import { sliderSettings } from '../../utils/common'
@@ -12,8 +12,8 @@ const Actividades = () => {
     <div id="residencies" className="r-wrapper">
     <div className="paddings innerWidth r-container">
       <div className="flexColStart r-head">
-        <span className="orangeText">Best Choices</span>
-        <span className="primaryText">Popular Residencies</span>
+        <span className="orangeText">Actividades</span>
+        <span className="primaryText">Recomendadas este mes</span>
       </div>
 
             <Swiper 
@@ -31,6 +31,11 @@ const Actividades = () => {
                                 </span>
                                 <span className='primaryText'>{card.name}</span>
                                 <span className='primaryText'>{card.detail}</span>
+                                <Link to={`/hospedajes/${card.id}`}>
+                                <button>
+                                    
+                                </button>
+                                </Link>
                             </div>
                         </SwiperSlide>
                     ))

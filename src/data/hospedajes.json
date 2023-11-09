@@ -2,8 +2,11 @@
     {
         "id": "1",
         "name": "Rafting diurno y nocturno",
-        "precio": "100000",
-        "imagenes": "./r1.jpg",
+        "precio": "10000",
+        "imagenes": "../../valle-grande/RAFTING.JPG",
+        "imagenes2": "../../valle-grande/RAFTING(1).JPG",
+        "imagenes3": "../../valle-grande/RAFTING(2).JPG",
+        "imagenes4": "../../valle-grande/RAFTING(3).JPG",
         "facilities": {
           "tiempo": 60,
           "edad": 4,
@@ -15,10 +18,10 @@
         "country": "Argentina"
       },
       {
-        "id": "1",
+        "id": "2",
         "name": "Tirolesa y Rappel - Adrenalina",
-        "precio": "100000",
-        "imagenes": "./r1.jpg",
+        "precio": "10000",
+        "imagenes": "../",
         "facilities": {
           "tiempo": 60,
           "edad": 4,
@@ -33,7 +36,7 @@
         "id": "3",
         "name": "Tirolesa y Rappel - Aventura",
         "precio": "100000",
-        "imagenes": "./r1.jpg",
+        "imagenes": "../r1.jpg",
         "facilities": {
             "tiempo": 60,
             "edad": 4,

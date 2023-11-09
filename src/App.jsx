@@ -7,6 +7,7 @@ import Hospedaje from "./Pages/Property/Hospedaje";
 import Layout from "./Layout/Layout";
 import './App.css'
 import { BrowserRouter,Route, Routes } from "react-router-dom";
+import SlideProducts from "./components/SlideProducts/SlideProducts";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
                 </Route>
               <Route path="actividades" element={<Actividades />} />
               <Route path="contact" element={<Contact />} />
+              <Route path="Slide" element={<SlideProducts />} />
             </Route>
           </Routes>
         </Suspense>
