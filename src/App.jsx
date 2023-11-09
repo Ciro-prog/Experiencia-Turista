@@ -1,29 +1,39 @@
+import { Suspense } from "react";
 import Actividades from "./components/Actividades/Actividades";
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header";
-import Companies from "./components/companies/companies";
 import Contact from "./components/contact/Contact";
-import Hospedaje from "./components/Hospedajes/Hospedaje"
-import Hero from "./components/hero/Hero";
+import Website from "./Pages/Website";
+import Hospedajes from "./Pages/Hospedajes/Hospedajes";
+import Hospedaje from "./Pages/Property/Hospedaje";
+import Layout from "./Layout/Layout";
 import './App.css'
+import { BrowserRouter,Route, Routes } from "react-router-dom";
+import SlideProducts from "./components/SlideProducts/SlideProducts";
+
 function App() {
   return (
     <div className="App">
-      <div>
-        <div className="white-gradient"/>
-        <Header/>
-        <Hero/>
-      </div>
-      <Companies/>
-      <Actividades/>
-      <Hospedaje/>
-      <Contact/>
-      <Footer/>
+      <BrowserRouter>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Routes>
+            <Route path="/" element={<Layout />}>
+              <Route index element={<Website />} />
+              <Route path="/hospedajes">
+                  <Route index element={<Hospedajes />} />
+                  <Route path=":propertyId" element={<Hospedaje />} />
+                </Route>
+              <Route path="actividades" element={<Actividades />} />
+              <Route path="contact" element={<Contact />} />
+              <Route path="Slide" element={<SlideProducts />} />
+            </Route>
+          </Routes>
+        </Suspense>
+      </BrowserRouter>
     </div>
   );
 }
 
 export default App;
+
  {/* <BrowserRouter>
 <Suspense fallback={<div>Loading...</div>}>
   <Routes>

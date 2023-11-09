@@ -1,0 +1,169 @@
+[
+    {
+        "id": "1",
+        "name": "Rafting diurno y nocturno",
+        "precio": "10000",
+        "imagenes": "../../valle-grande/RAFTING.JPG",
+        "imagenes2": "../../valle-grande/RAFTING(1).JPG",
+        "imagenes3": "../../valle-grande/RAFTING(2).JPG",
+        "imagenes4": "../../valle-grande/RAFTING(3).JPG",
+        "facilities": {
+          "tiempo": 60,
+          "edad": 4,
+          "distancia": 16
+        },
+        "detalle": "Es una actividad grupal para realizar con familia o amigos, consiste en descender el río a través de una balsa y comienza al pie del dique Valle Grande, hasta llegar al km 13 de la ruta 173, recorre 16 kilómetros de río clase II, con imponentes paisajes dentro del Cañón del Atuel",
+        "address": "Valle Grande",
+        "city": "San Rafael",
+        "country": "Argentina"
+      },
+      {
+        "id": "2",
+        "name": "Tirolesa y Rappel - Adrenalina",
+        "precio": "10000",
+        "imagenes": "../",
+        "facilities": {
+          "tiempo": 60,
+          "edad": 4,
+          "distancia": 0.4
+        },
+        "detalle": "Comienza con una aventura de trekking por vía ferrata, luego cruzan dos puentes colgantes hasta llegar a la tirolesa, la cual contiene 3 cables, haciendo 400 metros de vuelo! En la última plataforma se realiza una escalada hacia la base del rappel, que consiste en descender una pared de roca vinculados de una cuerda por medio de la utilización de los equipos especiales provistos por la empresa.",
+        "address": "Valle Grande",
+        "city": "San Rafael",
+        "country": "Argentina"
+      },
+      {
+        "id": "3",
+        "name": "Tirolesa y Rappel - Aventura",
+        "precio": "100000",
+        "imagenes": "../r1.jpg",
+        "facilities": {
+            "tiempo": 60,
+            "edad": 4,
+            "distancia": 0.12
+        },
+        "detalle": "Comienza con una aventura de trekking por vía ferrata! Pasamos por 2 cables de tirolesas de 120 metros de vuelo cada uno! En la última plataforma se realiza una escalada hacia la base del rappel, que consiste en descender una pared de roca vinculados de una cuerda por medio de la utilización de los equipos especiales provistos por la empresa.",
+        "address": "Valle Grande",
+        "city": "San Rafael",
+        "country": "Argentina"
+      },
+      {
+        "id": "4",
+        "name": "Cool River",
+        "precio": "100000",
+        "imagenes": "./r1.jpg",
+        "facilities": {
+            "tiempo": 60,
+            "edad": 4,
+            "distancia": 12
+        },
+        "detalle": "Es una actividad individual, consiste en descender el río a través de botes individuales impulsados por patas de ranas! Para esto hacemos una práctica previa con el guía y una charla sobre las normas de seguridad, su duración es de 60 minutos.",
+        "address": "Valle Grande",
+        "city": "San Rafael",
+        "country": "Argentina"
+      },
+      {
+        "id": "5",
+        "name": "Travesía en Catamarán",
+        "precio": "100000",
+        "imagenes": "./r1.jpg",
+        "facilities": {
+            "tiempo": 60,
+            "edad": "sin mínima",
+            "distancia": 12
+        },
+        "detalle": "Descubrí el paraíso acuático de Valle Grande en una emocionante travesía en catamarán desde una perspectiva única. Embarcate en una travesía llena de emociones, Sentí la brisa en el rostro y contempla los majestuosos paisajes mientras te relajas en nuestro catamarán. ¡La aventura te espera!",
+        "address": "Segundo Mercado 397",
+        "city": "San Rafael",
+        "country": "Argentina"
+      },
+      {
+        "id": "6",
+        "name": "Trekking Nocturno",
+        "precio": "100000",
+        "imagenes": "./r1.jpg",
+        "facilities": {
+            "tiempo": 60,
+            "edad": 4,
+            "distancia": 12
+        },
+        "detalle": "Consiste en una caminata por senderos de montaña, haciendo una parada en el mirador de estrellas. Una experiencia fuera de lo común, atrevete a explorar nuevos horizontes y despertá tus sentidos en esta maravillosa aventura.",
+        "address": "Valle Grande",
+        "city": "San Rafael",
+        "country": "Argentina"
+      },
+      {
+        "id": "7",
+        "name": "Cabalgatas en Valle Grande",
+        "precio": "100000",
+        "imagenes": "./r1.jpg",
+        "facilities": {
+            "tiempo": 60,
+            "edad": 4,
+            "distancia": 12
+        },
+        "detalle": "Se realizan paseos en caballos guiados por el campo, que es una de las formas más atractivas para conocer el lugar, dicha actividad está pensada para disfrutar en familia ya que los mismos están entrenados para cabalgar con niños sin riesgo alguno.",
+        "address": "Valle Grande",
+        "city": "San Rafael",
+        "country": "Argentina"
+      },
+      {
+        "id": "8",
+        "name": "Alquiler de Mountain Bike.",
+        "precio": "100000",
+        "imagenes": "./r1.jpg",
+        "facilities": {
+            "tiempo": 60,
+            "edad": 10,
+            "distancia": 12
+        },
+        "detalle": "Circuitos de 1 hora y media. Apta para mayores de 10 años.",
+        "address": "Valle Grande",
+        "city": "San Rafael",
+        "country": "Argentina"
+      },
+      {
+        "id": "9",
+        "name": "HIDROPEDAL",
+        "precio": 1200,
+        "imagenes": "./r1.jpg",
+        "facilities": {
+            "tiempo": 60,
+            "edad": 10,
+            "distancia": 12
+        },
+        "detalle": "Los botes a pedal son la opción perfecta para quienes buscan una experiencia relajada en el Lago Los Reyunos. Ofrecen la comodidad de disfrutar del paseo y apreciar las vistas sin esfuerzo, manteniendo las manos libres para capturar fotos o simplemente para llevar un mate y disfrutar de un toque auténtico durante la aventura. Además, están equipados con techos que ofrecen protección contra el sol y compartimientos prácticos para almacenar de forma segura todas tus pertenencias.",
+        "address": "Los Reyunos",
+        "city": "San Rafael",
+        "country": "Argentina"
+      },    
+      {
+        "id": "10",
+        "name": "PASEO EN CATAMARÁN",
+        "precio": "100000",
+        "imagenes": "./r1.jpg",
+        "facilities": {
+            "tiempo": 60,
+            "edad": 10,
+            "distancia": 12
+        },
+        "detalle": "Sumérgete en la aventura y embellece tu día con un pintoresco recorrido por el Embalse Los Reyunos en nuestro confortable catamarán. Este servicio exclusivo de una hora te permite desentrañar los secretos de la mística Isla de los Elefantes y te enriquece con relatos y datos fascinantes a través de una charla informativa. A bordo, la libertad es tuya: trae tus propios refrigerios y bebidas para disfrutar mientras te deleitas con las vistas. Es un plan perfecto para la familia, con la ventaja de que los niños menores de 5 años participan gratis. No dejes pasar la oportunidad de convertir un simple día en una experiencia inolvidable para ti y tus seres queridos.",
+        "address": "Los Reyunos",
+        "city": "San Rafael",
+        "country": "Argentina"
+      },    {
+        "id": "11",
+        "name": "TIROBANGI",
+        "precio": "100000",
+        "imagenes": "./r1.jpg",
+        "facilities": {
+            "tiempo": 60,
+            "edad": 10,
+            "distancia": 12
+        },
+        "detalle": "Volá a toda velocidad en el circuito de tirolesa más emocionante de Argentina. El tirobangi es una modalidad de tirolesa que te permite tener las manos libres. Vení a experimentar esta extraordinaria sensación con nosotros!",
+        "address": "Los Reyunos",
+        "city": "San Rafael",
+        "country": "Argentina"
+      }
+  ]
